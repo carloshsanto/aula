@@ -1,0 +1,18 @@
+<div class="p-fluid p-grid p-formgrid">
+    <div class="p-field p-col-12 p-md-4">
+        <label for="basic">Basic</label>
+        <p-calendar inputId="basic" [(ngModel)]="date1"></p-calendar>
+    </div>
+
+    <div class="p-field p-col-12 p-md-4">
+        <label for="dateformat">DateFormat</label>
+        <p-calendar [(ngModel)]="date2" dateFormat="mm-dd-yy" inputId="dateformat"></p-calendar>
+    </div>
+
+    <div class="p-field p-col-12 p-md-4">
+        <label for="buttonbar">Button Bar</label>
+        <p-calendar [(ngModel)]="date9" [showButtonBar]="true" inputId="buttonbar"></p-calendar>
+    </div>
+
+
+</div>    
