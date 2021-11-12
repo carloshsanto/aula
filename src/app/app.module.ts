@@ -9,12 +9,15 @@ import { AppComponent } from './app.component';
 import {TabMenuModule} from 'primeng/tabmenu';
 import {CalendarModule} from 'primeng/calendar';
 import { FormsModule } from '@angular/forms';
+import { EditorComponent } from './editor/editor.component';
+import {EditorModule} from 'primeng/editor';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    CalendarComponent
+    CalendarComponent,
+    EditorComponent
   ],
   imports: [
     BrowserModule,
@@ -22,7 +25,8 @@ import { FormsModule } from '@angular/forms';
     TabMenuModule,
     CalendarModule,    
     FormsModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    EditorModule
   ],
   providers: [],
   bootstrap: [AppComponent]
